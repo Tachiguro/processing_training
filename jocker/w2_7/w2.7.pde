@@ -5,10 +5,15 @@ void  setup()
 
 void  draw()
 {
-
+  // green
+  fill(0);
+  rect(10, 60, 80, 80, 0, 0, 50, 50);
+  // Black
   fill(0, 0, 0);
-  ellipse(50, 70, 80, 100);
-  circle(50, 80, 80);
+  circle(50, 110, 80);
+  // white 
   fill(255, 255, 255);
   circle(50, 60, 80);
+  // Zwei Runde augen und zwei  müssen eingebunden werden in weis
+  // eine Schwarze Nase und zwei Puppelen
 }
