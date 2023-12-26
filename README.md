@@ -3,7 +3,7 @@ Welcome to our exciting project "Processing Adventure"! Here, developers jherzog
 
 # Overview #
 In this repository, we deepen our programming knowledge using the book:
-<a href="https://processing.org/books" target="blank"></a><img src="https://processing.org/static/d48a68d754841b15cc39bf277fdc7ab4/163f0/programmieren-trainieren.webp" alt="Programming training (3rd Edition)" height="130" />
+<a href="https://processing.org/books" target="blank"><img src="https://processing.org/static/d48a68d754841b15cc39bf277fdc7ab4/163f0/programmieren-trainieren.webp" alt="Programming training (3rd Edition)" height="130" /> </a>
 We not only share our own solutions to the tasks but also provide example codes that might be of interest to other developers.
 
 # Project Goals #
