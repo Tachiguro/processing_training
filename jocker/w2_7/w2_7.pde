@@ -6,7 +6,7 @@ void  setup()
 
 void  draw()
 {
-  int x, d, y, r;
+  float x, d, y, r, diameter, start_angle, end_angle;
   y = 0;
   // Breast
   fill(0);
@@ -16,7 +16,18 @@ void  draw()
   fill(255, 255, 255);
   circle(50, 60, 80);
   fill(0);
-  rect(10, 20, 80, 40, 75, 75, 0, 0);
+  //rect(10, 20, 80, 40, 75, 75, 0, 0);
+  // head
+  x = width / 2; 
+  y = height / 2; 
+  diameter = 80;
+  start_angle = radians(0);
+  end_angle = radians(180);
+  pushMatrix();
+  translate(50, 60);
+  rotate(radians(180));
+  arc(0, 0, diameter, diameter, start_angle, end_angle);
+  popMatrix();  
   //eyes  
   noStroke();
   fill(255);
@@ -33,5 +44,6 @@ void  draw()
   circle(40, x, r);
   circle(60, x, r);
   // navel
-
+        //o       r      u       l
+  quad(50, 60, 52, 65, 50, 70, 48, 65);  
 }
