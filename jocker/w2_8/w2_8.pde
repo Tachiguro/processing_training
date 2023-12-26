@@ -1,49 +1,55 @@
 void  setup()
 {
-  size(150, 200);
+  size(400, 220);
 
 }
 
 void  draw()
 {
-  float x, d, y, r, diameter, start_angle, end_angle;
-  y = 0;
-  // Breast
-  fill(0);
-  rect(10, 60, 80, 80, 0, 0, 50, 50);
-  circle(50, 110, 80);
-  // Head 
-  fill(255, 255, 255);
-  circle(50, 60, 80);
-  fill(0);
-  //rect(10, 20, 80, 40, 75, 75, 0, 0);
-  // head
-  x = width / 2; 
-  y = height / 2; 
-  diameter = 80;
-  start_angle = radians(0);
-  end_angle = radians(180);
-  pushMatrix();
-  translate(50, 60);
-  rotate(radians(180));
-  arc(0, 0, diameter, diameter, start_angle, end_angle);
-  popMatrix();  
-  //eyes  
-  noStroke();
-  fill(255);
-  x = 57;
-  d = 40;
-  r = 40;
-  circle(31, x, r);
-  circle(70, x, r);
-  // pupiks
-  stroke(0);
-  x = 55;
-  r = 7;
-  fill(0);
-  circle(40, x, r);
-  circle(60, x, r);
-  // navel
-        //o       r      u       l
-  quad(50, 60, 52, 65, 50, 70, 48, 65);  
+    int z, r, x, y;
+    // Hintergrundfarbe
+    background(255);
+
+    // Gehäuse
+    fill(189);
+    strokeWeight(3);
+    rect(50, 50, 280, 150, 25, 25, 25, 25);
+    strokeWeight(0.5);
+    // Henkel
+    fill(0);
+    rect(80, 10, 220, 40, 25, 25, 0, 0);
+    fill(255);
+    rect(90, 25, 200, 25);
+    
+    // Lautsprecher
+    fill(0);
+    strokeWeight(1);
+    y = 110;
+    rect(80, y, 75, 75, 50, 50, 50, 50);
+    rect(230, y, 75, 75, 50, 50, 50, 50);
+    fill(50);
+    fill(40);
+    y = 115;
+    z = 65;
+    r = 50;
+    rect(85, y, z, z, r, r, r, r);
+    rect(235, y, z, z, r, r, r, r);
+
+
+    // Display
+    //fill(0);
+    //rect(150, 75, 150, 50);
+
+    // Bedienelemente
+    fill(20);
+    r = 5;
+    rect(60, 65, 260, 25, r, r, r, r);
+    fill(189);
+    rect(135, 74, 160, 7);
+    // Display
+    fill(40);
+    rect(75, 68, 40, 20);
+    fill(189);
+    // Displayinhalt
+    text("Berlin", 82, 82);
 }
