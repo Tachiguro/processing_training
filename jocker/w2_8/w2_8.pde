@@ -7,21 +7,19 @@ void  setup()
 void  draw()
 {
     int z, r, x, y;
-    // Hintergrundfarbe
+    // Background colour
     background(255);
-
-    // Gehäuse
+    // Case
     fill(189);
     strokeWeight(3);
     rect(50, 50, 280, 150, 25, 25, 25, 25);
     strokeWeight(0.5);
-    // Henkel
+    // Handle
     fill(0);
     rect(80, 10, 220, 40, 25, 25, 0, 0);
     fill(255);
     rect(90, 25, 200, 25);
-    
-    // Lautsprecher
+    // Loudspeaker
     fill(0);
     strokeWeight(1);
     y = 110;
@@ -34,8 +32,6 @@ void  draw()
     r = 50;
     rect(85, y, z, z, r, r, r, r);
     rect(235, y, z, z, r, r, r, r);
-
-
     // Display
     //fill(0);
     //rect(150, 75, 150, 50);
@@ -46,7 +42,7 @@ void  draw()
     rect(60, 65, 260, 25, r, r, r, r);
     fill(189);
     rect(135, 74, 160, 7);
-    // Display
+    // Display text
     fill(40);
     rect(75, 68, 40, 20);
     fill(189);
