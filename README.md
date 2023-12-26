@@ -1,4 +1,4 @@
-# Projekt "Processing Abenteuer" 🚀
+# Projekt "Processing Adventure" 🚀
 Welcome to the thrilling world of "Processing Adventure"! 🌈 Here, our dynamic duo of developers, <a href="https://github.com/Tachiguro" alt="jherzog" />jherzog</a> and <a href="https://github.com/Jocker2410" alt="aherzog" />aherzog</a>, have embarked on this project to elevate their skills and dive into the exciting realm of programming. 🖥️💡
 
 # Overview #
