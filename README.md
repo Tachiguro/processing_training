@@ -1,12 +1,14 @@
 # Projekt "Processing Abenteuer" 🚀
-Welcome to our exciting project "Processing Adventure"! Here, developers <a href="https://github.com/Tachiguro" alt="jherzog" /></a> and <a href="https://github.com/Jocker2410" alt="aherzog" /></a> initiated this project to expand their skills and learn something new. 🖥️💡
+Welcome to our exciting project "Processing Adventure"! Here, developers <a href="https://github.com/Tachiguro" alt="jherzog" />jherzog</a> and <a href="https://github.com/Jocker2410" alt="aherzog" />aherzog</a> initiated this project to expand their skills and learn something new. 🖥️💡
 
 # Overview #
 In this repository, we deepen our programming knowledge using the book:
 <a href="https://processing.org/books" target="blank" alt="Programming training (3rd Edition)">Programming training (3rd Edition)</a>
 <br>We not only share our own solutions to the tasks but also provide example codes that might be of interest to other developers.
 <img align="right" height="130" src="https://processing.org/static/d48a68d754841b15cc39bf277fdc7ab4/163f0/programmieren-trainieren.webp" /> 
-<a href="https://processing.org/books" target="blank"><img align="center" src="https://files.hanser.de/Files/Article/ARTK_CT0_9783446477667_0001.jpg" height="130" /></a>
+<a href="https://processing.org/books" target="blank"><img align="center" src="https://files.hanser.de/Files/Article/ARTK_CT0_9783446477667_0001.jpg" height="120" /></a>
+
+
 # Project Goals #
 📚 Self-Development: By working with the book, we enhance our skills and deepen our understanding of the world of programming.
 🤝 Sharing and Inspiring: The example codes serve not only as learning tools for us but also aim to inspire other developers and help them realize their own projects.
