@@ -48,4 +48,6 @@ void  draw()
     fill(189);
     // Displayinhalt
     text("Berlin", 82, 82);
+    fill(0);
+    rect(80, 100, 220, 2);
 }
