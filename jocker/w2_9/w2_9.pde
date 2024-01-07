@@ -5,7 +5,7 @@ void setup()
 
 void draw()
 {
-  int z, r, x, y;
+  int xo, xu, yo, yu;
   
   background(255);
   //tail
@@ -31,4 +31,19 @@ void draw()
   quad(95, 355, 160, 350, 162, 390, 90, 390);
   //right paw
   quad(195, 355, 265, 350, 275, 390, 190, 390);
+  fill(0);
+  xo = 255;
+  xu = 255;
+  yo = 385;
+  yu = 395;
+  quad(xu, yu, xo, yo, xo + 3, yo, xu + 3, yu );
+  xo -= 45;
+  xu -= 45;
+  quad(xu, yu, xo, yo - 3, xo + 3, yo - 3, xu + 3, yu );
+  xo -= 60;
+  xu -= 60;
+  quad(xu, yu, xo, yo - 2, xo + 3, yo - 1, xu + 3, yu );
+  xo -= 45;
+  xu -= 45;
+  quad(xu, yu, xo, yo - 1, xo + 3, yo - 1, xu + 3, yu );
 }
