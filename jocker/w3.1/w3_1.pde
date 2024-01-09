@@ -1,5 +1,3 @@
-// 🫠ProcMaster🫠
-
 String benutzereingabe = "";
 boolean ergebnisAngezeigt = false;
 
